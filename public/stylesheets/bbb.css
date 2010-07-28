@@ -1,0 +1,30 @@
+html,body	{margin:0;padding:0}
+body		{font: 15px Arial,Sans-serif; background: #6B86A6;}
+p		{margin:0 10px 10px; text-align: left;}
+h2		{color: white; padding: 10px; }
+
+div#header 	{text-align: left;margin: 0px auto 0; background: #465945; font: 20px Arial;color: white; padding: 5px;}
+div#container	{text-align:center; background: #eeeeee;}
+div#container	{width:960px;margin:0 auto 0;}
+div#navigation	{background:#dddddd; padding: 10px;}
+div#footer	{background: #465945;color: #ffffff;}
+div#footer p	{margin:0;padding:5px; text-align: center;}
+
+div#cont	{width:480px; height: 400px;}
+
+
+div#content	{float:left;width:480px; padding: 10px;}
+div#navigation	{float:right;width:440px; height: 500px;}
+div#footer	{clear:both;width:100%}
+
+table.n		{ border: 0px solid black;border-collapse:collapse;}
+tr.n		{ border: 0px solid black;text-align: left;}
+td.n		{ border: 0px solid black; padding: 2px; text-align: left}
+td.nn		{ border: 0px solid black; font-weight: bold; padding: 2px;}
+
+
+a:link		{ color: #000000; text-decoration: none; }
+a:visited	{ color: #000000; text-decoration: none; }
+#pag		{ font: 20px Arial; color: green; font-weight: bold;}
+img             { border: 2px solid black; padding: 0px; }
+img.nn          { border: 0px;}

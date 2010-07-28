@@ -1,0 +1,38 @@
+<table class="n">
+<% for aran in @arans %>
+<tr class="n">
+    <% if aran.id == params[:id].to_i %>
+            <td class="nn"><img  class="nn" src="images/check/check-1.png"></td>
+        	<td class="nn"><%= h aran.id %></td>
+	        <td class="nn"><%= link_to aran.name, {:action=>'index',:controller=>'lll', :id=>aran.id, :page=>params[:page]}%></td>
+    <% else %>
+            <td class="n"></td>
+	        <td class="n"><%= h aran.id %></td>
+  	        <td class="n"><%= link_to aran.name, {:action=>'index',:controller=>'lll', :id=>aran.id, :page=>params[:page]}%></td>
+     <% end %>
+</tr>
+<% end %>
+</table>
+
+
+<div align=center>
+    <% params[:id] = nil %>
+    <%= will_paginate @arans, :next_label => '}', :previous_label=> '{', :class => 'pag', :id => 'pag' %>               
+    <% if params[:page] != nil %>
+    <%= h "страница: "+params[:page] %>
+    <% end %>
+</div>
+
+
+
+
+<div id="navigation">
+   <div align=center>
+	<br>
+	<img src='<%="images/b"+@pp%>'>
+        <br>
+        <%= h @np %>
+   </div>
+</div>
+
+

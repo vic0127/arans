@@ -1,0 +1,27 @@
+/*
+	 http://css-tricks.com
+*/
+
+*		    { margin: 0; padding: 0; }
+body		    { font: 15px Arial, Georgia, serif; background: #6B86A6; }
+
+h1                  { color: white; padding: 10px; }
+
+#page-wrap          { max-width: 960px; min-width: 560px; margin: 0 auto; position: relative; }
+
+#header             { max-width: 960px; min-width: 560px; background: #222;
+                      margin: 15px auto 0; }
+
+#main-content       { padding: 0 490px 0 10px; background: white; }
+#main-content a     { font: Arial; color: black; border-bottom: 1px dotted black; text-decoration: none; }
+#main-content a:hover     { border-bottom-style: solid; }
+
+
+#main-sidebar       { position: absolute; right: 0; top: 0; width: 460px; bottom: 0%;
+                      background: #eee; padding: 0 10px }
+                      
+#footer             { max-width: 960px; min-width: 560px; background: #222;
+                      margin: 0 auto 15px;}
+#footer p           { padding: 10px; color: white; }
+#footer a           { color: white; border-bottom-style: solid; text-decoration: none; }
+#footer a:hover     { border-bottom-style: dotted; }
